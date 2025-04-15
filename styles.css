@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f8f9fa;
     color: #333;
-    position: relative; /* Important for absolute positioning */
+    position: relative;
 }
 
 header {
@@ -75,7 +75,7 @@ footer {
 .flag {
     position: absolute;
     top: 30px;
-    left: 30px;  /* Move the flag to the left */
+    left: 30px;
     width: 70px;
 }
 
@@ -95,4 +95,20 @@ footer {
 .culture p, .cuisine p {
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+.culture-content, .cuisine-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.culture-content img, .cuisine-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.culture-content p, .cuisine-content p {
+    flex: 1;
 }
