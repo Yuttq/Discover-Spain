@@ -19,7 +19,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-.intro, .places, .culture, .cuisine {
+.intro, .places, .culture, .cuisine, .about {
     padding: 2rem;
     max-width: 1000px;
     margin: auto;
@@ -79,7 +79,7 @@ footer {
     width: 70px;
 }
 
-.culture, .cuisine {
+.culture, .cuisine, .about {
     background-color: #fff3e0;
     border-radius: 8px;
     padding: 2rem;
@@ -87,28 +87,28 @@ footer {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.culture h2, .cuisine h2 {
+.culture h2, .cuisine h2, .about h2 {
     color: #d32f2f;
     margin-bottom: 1rem;
 }
 
-.culture p, .cuisine p {
+.culture p, .cuisine p, .about p {
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
-.culture-content, .cuisine-content {
+.culture-content, .cuisine-content, .about-content {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
 
-.culture-content img, .cuisine-content img {
+.culture-content img, .cuisine-content img, .about-content img {
     width: 200px;
     height: auto;
     border-radius: 8px;
 }
 
-.culture-content p, .cuisine-content p {
+.culture-content p, .cuisine-content p, .about-content p {
     flex: 1;
 }
