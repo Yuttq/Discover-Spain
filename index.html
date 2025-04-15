@@ -7,25 +7,31 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <img src="spain.jpg" alt="Spain Flag" class="flag" />
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#culture">Culture</a></li>
+      <li><a href="#cuisine">Cuisine</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Discover Spain</h1>
     <p>Explore the culture, cuisine, and beauty of Spain</p>
   </header>
-    
-  <img src="spain.jpg" alt="Spain Flag" class="flag">
 
-  <!-- About Spain Section (Styled similarly to other sections) -->
-  <section class="about">
+  <section id="about" class="about">
     <h2>About Spain</h2>
-    <div class="about-content">
-      <img src="images/spain-about.jpg" alt="Spain Scenic View">
-      <p>
-        Spain, located in southwestern Europe, is known for its rich history, vibrant culture, and beautiful landscapes. It’s famous for flamenco dancing, delicious food like paella, and iconic cities like Madrid and Barcelona.
-      </p>
-    </div>
+    <p>
+      Spain, located in southwestern Europe, is known for its rich history, vibrant culture, and beautiful landscapes. It’s famous for flamenco dancing, delicious food like paella, and iconic cities like Madrid and Barcelona.
+    </p>
   </section>
 
-  <section class="places">
+  <section id="places" class="places">
     <h2>Famous Places in Spain</h2>
     <div class="cards">
       <div class="card">
@@ -46,24 +52,16 @@
     </div>
   </section>
 
-  <section class="culture">
+  <section id="culture" class="culture">
     <h2>Culture of Spain</h2>
-    <div class="culture-content">
-      <img src="images/flamenco.jpg" alt="Flamenco Dance">
-      <p>
-        Spain is known for its vibrant culture, including flamenco dancing, bullfighting, and world-class art. The culture is a mix of traditional and modern influences, with strong regional traditions.
-      </p>
-    </div>
+    <p>Spain’s culture is rich with traditions like flamenco music and dance, siestas, bullfighting, and lively festivals like La Tomatina and San Fermín.</p>
+    <img src="images/flamenco.jpg" alt="Flamenco Dance" class="section-img">
   </section>
 
-  <section class="cuisine">
+  <section id="cuisine" class="cuisine">
     <h2>Cuisine of Spain</h2>
-    <div class="cuisine-content">
-      <img src="images/paella.jpg" alt="Paella Dish">
-      <p>
-        Spanish cuisine is renowned for its diverse dishes. Paella, tapas, and churros are some of the most famous Spanish foods. Each region has its own unique culinary traditions.
-      </p>
-    </div>
+    <p>Spanish cuisine is world-renowned for dishes like paella, tapas, jamón ibérico, churros, and tortilla española.</p>
+    <img src="images/paella.jpg" alt="Paella" class="section-img">
   </section>
 
   <footer>
